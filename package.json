@@ -1,6 +1,6 @@
 {
   "name": "@brixtol/browserslist-config",
-  "version": "1.0.1 ",
+  "version": "1.0.2",
   "description": "Browserslist shareable config file for Brixtol Textiles",
   "author": "Νίκος Σαβίδης <n@brixtol.com>",
   "license": "MIT",
