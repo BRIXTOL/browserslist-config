@@ -1,6 +1,6 @@
 {
   "name": "@brixtol/browserslist-config",
-  "version": "1.0.1",
+  "version": "1.0.1 ",
   "description": "Browserslist shareable config file for Brixtol Textiles",
   "author": "Νίκος Σαβίδης <n@brixtol.com>",
   "license": "MIT",
@@ -22,7 +22,8 @@
     "pnpm": ">=5"
   },
   "scripts": {
-    "test": "ava --color --verbose --watch --timeout=2m"
+    "test": "ava --color --verbose --watch --timeout=2m",
+    "postpublish": "npm publish --ignore-scripts --@OWNER:registry='https://registry.npmjs.org'"
   },
   "prettier": "@brixtol/prettier-config",
   "eslintConfig": {
