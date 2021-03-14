@@ -1,5 +1,11 @@
 # Dot Files
 .gitignore
+.prettierignore
 
 # Files
 readme.md
+changelog.md
+
+# Directories
+tests/
+node_modules/
