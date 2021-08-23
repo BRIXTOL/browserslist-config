@@ -1,11 +1,11 @@
-# Dot Files
+# DOT FILES
 .gitignore
 .prettierignore
 
-# Files
+# FILES
 readme.md
 changelog.md
 
-# Directories
+# DIRECTORIES
 tests/
 node_modules/

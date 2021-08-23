@@ -22,11 +22,10 @@
     "pnpm": ">=5"
   },
   "scripts": {
-    "test": "ava --color --verbose --watch --timeout=2m",
-    "postpublish": "npm publish --ignore-scripts --@OWNER:registry='https://registry.npmjs.org/@brixtol'"
+    "test": "ava --color --verbose --watch --timeout=2m"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "prettier": "@brixtol/prettier-config",
   "eslintConfig": {
