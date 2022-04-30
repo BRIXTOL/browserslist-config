@@ -1,6 +1,6 @@
 {
   "name": "@brixtol/browserslist-config",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Browserslist shareable config file for Brixtol Textiles",
   "author": "Νίκος Σαβίδης <n@brixtol.com>",
   "license": "MIT",
@@ -30,7 +30,7 @@
   "prettier": "@brixtol/prettier-config",
   "eslintConfig": {
     "extends": [
-      "@brixtol/eslint-config-javascript"
+      "@brixtol/eslint-config"
     ],
     "parserOptions": {
       "babelOptions": {
@@ -50,8 +50,8 @@
     "cjs": true
   },
   "devDependencies": {
-    "@brixtol/eslint-config-javascript": "^2.0.3",
-    "@brixtol/prettier-config": "workspace:^1.1.0",
+    "@brixtol/eslint-config": "workspace:^1.2.1",
+    "@brixtol/prettier-config": "workspace:^1.2.0",
     "ava": "^3.15.0",
     "esm": "^3.2.25"
   }
